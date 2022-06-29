@@ -1,0 +1,57 @@
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 py-5">
+            <h3 class="text-center">Your Available Stock</h3>
+            <div class="part1">
+                <table class="table table-hover table-bordered">
+                    <thead >
+                        <tr class="table-info">
+                            <th style="background-color: #c8f59d;" scope="col">Name</th>
+                            <th style="background-color: #c8f59d;" scope="col">Counts</th>
+                            <th style="background-color: #c8f59d;" scope="col">Current Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let stock of stockDetailList1">
+                            <td>{{stock.stockName}}</td>
+                            <td>{{stock.stockCount}}</td>
+                            <td>{{stock.currentPrice}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr class="pb-2">
+        </div>
+        <div class="col-md-6 py-5">
+            <h3 class="text-center">Your Available MutualFund</h3>
+            <div class="part2">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr class="table-info">
+                            <th style="background-color: #c8f59d;" scope="col">Name</th>
+                            <th style="background-color: #c8f59d;" scope="col">Counts</th>
+                            <th style="background-color: #c8f59d;" scope="col">Current Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let mf of mutualFundl">
+                            <td>{{mf.mutualFundName}}</td>
+                            <td>{{mf.mutualFundUnits}}</td>
+                            <td>{{mf.currentPrice}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr class="pb-2">
+
+        </div>
+
+        <div class="text-center">
+            <h1>Your Total Networth : {{balance | currency:'INR':true}}</h1>
+            <p><button routerLink="/sellasset" class="accent">Sell Assets</button></p>
+
+        </div>
+    </div>
+</div>
+</body>

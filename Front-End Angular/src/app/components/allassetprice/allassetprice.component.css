@@ -1,0 +1,12 @@
+h3.h {
+    border: 2px solid #c8f59d;
+    border-radius: 8px;
+    padding: 5px;
+}
+body{
+    background-image: linear-gradient(-45deg, #94b98a,#cde885,#dff6a6,#e4fcbf,#d9f4bd,#d8fce2,#b8fcf1,#a4fbf5,#84faf8);
+}
+.table table-hover,th,td
+{
+    border: 1px solid;
+}

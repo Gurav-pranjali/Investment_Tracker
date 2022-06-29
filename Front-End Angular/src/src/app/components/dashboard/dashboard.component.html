@@ -1,0 +1,94 @@
+<!-- <div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img mat-card-image src="../assets/images/Assets.jpg" alt="Photo of a Shiba Inu">
+                <mat-card-content class="text-center">
+                    <p><b>CALCULATE ASSETS</b></p>
+                    <p><button routerLink="/viewasset" class="accent">View Assets</button></p>
+                </mat-card-content>
+            </div>
+
+            <div class="col-md-6">
+                <img mat-card-image src="../assets/images/MutualStock.png" alt="Photo of MutualStock">
+                <mat-card-content class="text-center">
+                    <p><b>SELL STOCK & MUTUAL FUND</b></p>
+                    <p><button routerLink="/sellasset" class="accent">Sell Assets</button></p>
+                </mat-card-content>
+            </div>
+        </div>
+
+        <h1> Welcome to Admin Panel</h1>
+        <!- <h1>{{assetSaleResponse.networth}}</h1>
+        <h1>{{assetSaleResponse.saleStatus}}</h1> 
+        <h1>{{balance}}</h1>
+        <button (click)="getNetWorth()" mat-raised-button>Get Details</button>
+        <h1>{{portfolioResponse.mutualFundList}}</h1>
+        <h1>{{portfolioResponse.portfolioid}}</h1>
+        <h1>{{portfolioResponse.stockDetailList}}</h1>
+        <table>
+            <tbody>
+
+                <tr *ngFor="let emp1 of portfolioResponse.mutualFundList">
+
+                    <td>{{emp1.mfId}}</td>
+                    <td>{{emp1.mutualFundName}}</td>
+                    <td>{{emp1.mutualFundUnits}}</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tbody>
+                <tr *ngFor="let emp of portfolioResponse.stockDetailList">
+
+                    <td>{{emp.stockCount}}</td>
+                    <td>{{portfolioResponse.stockDetailList}}</td>
+                    <td>{{emp.stockName}}</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+        <button (click)="getAsset()" mat-raised-button>View Assets</button>
+
+
+        <h1>{{assetSaleResponse.networth}}</h1>
+        <h1>{{assetSaleResponse.saleStatus}}</h1>
+        <button (click)="sellAsset()" mat-raised-button>Sell Assets</button> 
+    </div> -->
+
+<div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+    <div class="card card0 border-0">
+        <div class="row d-flex">
+            <div class="col-lg-6">
+                <div class="card1 pb-5">
+                    <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
+                        <img src="../assets/images/8432.jpg" class="image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card2 card border-0 px-4 py-5">
+                    <div class="row px-3 text-center">
+                        <p>Welcome to</p>
+                    </div>
+                    <hr>
+                    <div class="row mb-3 px-3 left-btn">
+                        <mat-card-content class="text-center">
+                            <p><u>CALCULATE ASSETS</u></p>
+                            <p><button routerLink="/viewasset" class="accent">View Assets</button></p>
+                        </mat-card-content>
+                    </div>
+                    <div class="row mb-3 px-3 right-btn">
+                        <mat-card-content class="text-center">
+                            <p><u>SELL STOCK & MUTUAL FUND</u></p>
+                            <p><button routerLink="/sellasset" class="accent">Sell Assets</button></p>
+                        </mat-card-content>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

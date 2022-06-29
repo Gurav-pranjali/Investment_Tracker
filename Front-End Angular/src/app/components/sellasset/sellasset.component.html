@@ -1,0 +1,78 @@
+<body>
+    <div class="container" style="background-image: linear-gradient(-45deg, #94b98a,#cde885,#dff6a6,#e4fcbf,#d9f4bd,#d8fce2,#b8fcf1,#a4fbf5,#84faf8);">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="outset py-3">
+                <h3 class="text-center my-3 mt-5">Available Stock List</h3>
+                <table class="table">
+                    <tr>
+                        <th>checkbox</th>
+                        <th style="background-color: #c8f59d;" scope="col">Asset</th>
+                        <th style="background-color: #c8f59d;" scope="col">Available Units</th>
+                        <th style="background-color: #c8f59d;" scope="col">Current Price</th>
+                        <th style="background-color: #c8f59d;" scope="col">Units to be Sold</th>
+                    </tr>
+                </table>
+
+
+
+                <app-vieweachstock *ngFor="let stock of stockDetailList1" [stock]="stock" (removeEvent)="remove($event)"
+                    (addEvent)="add($event)"></app-vieweachstock>
+
+
+
+            </div>
+            <div class="mt-5">
+                <h3 class="text-center my-3  mt-5">Available Mutual Fund</h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th>checkbox</th>
+                        <th style="background-color: #c8f59d;" scope="col">Asset</th>
+                        <th style="background-color: #c8f59d;" scope="col">Available Units</th>
+                        <th style="background-color: #c8f59d;" scope="col">Current Price</th>
+                        <th style="background-color: #c8f59d;" scope="col">Units to be Sold</th>
+                    </tr>
+                </table>
+                <app-vieweachmutual *ngFor="let mutualFund of mutualFundl" [mutual]="mutualFund"
+                    (removeEvent)="remove($event)" (addEvent)="add($event)"></app-vieweachmutual>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="middle">
+                <h3 class="text-center h">Selected Units</h3>
+
+                <table class=" text-center table table-striped">
+                    <tr>
+                        <th style="background-color: #c8f59d;">Asset Name</th>
+                        <th style="background-color: #c8f59d;">Units to be Sold</th>
+                    </tr>
+                    <tr *ngFor="let asset of saleAsset">
+                        <td>{{asset.assetName}}</td>
+                        <td>{{asset.soldUnits}}</td>
+                    </tr>
+                </table>
+                <p class="text-center py-1"><button class="accent" (click)="sellAsset()" mat-raised-button>sell</button>
+                </p>
+                <div class="status text-center">
+
+                    <a *ngIf=" !assetSaleResponse.saleStatus ">
+                        <div *ngFor="let item of assetSaleResponse.map | keyvalue ">
+                            <span class="text-danger">You have Entered Wrong units for AssetName: <b>{{item.key}}
+                                </b>
+                                i.e Units: <b>{{item.value}}</b></span>
+                        </div>
+                    </a>
+                    <a *ngIf="assetSaleResponse.saleStatus ">
+                        <b class="text-success">Successfully sold...</b>
+                        <br>
+
+                    </a>
+                    <b *ngIf="sell">After Selling Balance is : {{assetSaleResponse.networth}}</b>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>

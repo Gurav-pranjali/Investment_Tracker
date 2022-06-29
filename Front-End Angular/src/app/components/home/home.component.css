@@ -1,0 +1,129 @@
+body {
+    background-image: linear-gradient(-45deg, #94b98a,#cde885,#dff6a6,#e4fcbf,#d9f4bd,#d8fce2,#b8fcf1,#a4fbf5,#84faf8);
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #6EAD32;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b1cd96;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    height: auto;
+}
+
+ .pic{
+    width: 90%;
+    height: 10vh;
+    position: relative;
+    margin-left: 28%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    
+}
+
+
+
+ .container {
+    padding-top: 40px;
+}
+
+ h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 72px;
+    color: #124265;
+    font-family: "Poppins", sans-serif;
+}
+
+ h2 {
+    color: #5e5e5e;
+    margin: 10px 0 0 0;
+    font-size: 22px;
+}
+
+.btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 14px 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #6ead32;
+}
+
+ .btn-get-started:hover {
+    background: #6ead32;
+}
+
+ .icon-boxes {
+    margin-top: 100px;
+}
+
+ .icon-box {
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+ .icon-box .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+ .icon-box .title a {
+    color: #124265;
+    transition: 0.3s;
+}
+
+ .icon-box .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+ .icon-box .icon {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    font-size: 36px;
+    line-height: 1;
+    color: #6ead32;
+}
+
+ .icon-box:hover {
+    transform: scale(1.08);
+}
+
+ .icon-box:hover .title a {
+    color: #6ead32;
+}
+

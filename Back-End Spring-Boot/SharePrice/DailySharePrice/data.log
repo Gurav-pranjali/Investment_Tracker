@@ -1,0 +1,351 @@
+"2022-06-30 01:19:27 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Starting SharePriceApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 22440 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice)
+""2022-06-30 01:19:27 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 01:19:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 01:19:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 01:19:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 01:19:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 187 ms. Found 1 JPA repository interfaces.
+""2022-06-30 01:19:30 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a595ef0d-9841-3f88-8014-eb90c8887fbf
+""2022-06-30 01:19:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-06-30 01:19:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 01:19:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 01:19:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 01:19:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4050 ms
+""2022-06-30 01:19:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 01:19:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 01:19:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 01:19:32 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 01:19:32 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 01:19:32 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 01:19:32 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 01:19:33 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 01:19:33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:19:33 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 01:19:34 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 01:19:35 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 01:19:35 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 01:19:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-06-30 01:19:36 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Started SharePriceApplication in 9.392 seconds (JVM running for 10.56)
+""2022-06-30 01:20:16 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:20:16 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 01:20:16 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-06-30 01:20:16 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-06-30 01:20:17 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Starting SharePriceApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 22440 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice)
+""2022-06-30 01:20:17 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 01:20:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 01:20:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+""2022-06-30 01:20:17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a595ef0d-9841-3f88-8014-eb90c8887fbf
+""2022-06-30 01:20:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-06-30 01:20:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 01:20:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 01:20:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 01:20:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 515 ms
+""2022-06-30 01:20:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-06-30 01:20:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-06-30 01:20:17 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 01:20:17 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 01:20:17 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 01:20:17 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 01:20:17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:20:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 01:20:17 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 01:20:18 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 01:20:18 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 01:20:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-06-30 01:20:18 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Started SharePriceApplication in 1.995 seconds (JVM running for 53.414)
+""2022-06-30 01:20:37 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:20:38 [Thread-8] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 01:20:38 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-06-30 01:20:38 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-06-30 01:20:38 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Starting SharePriceApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 22440 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice)
+""2022-06-30 01:20:38 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 01:20:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 01:20:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+""2022-06-30 01:20:39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a595ef0d-9841-3f88-8014-eb90c8887fbf
+""2022-06-30 01:20:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-06-30 01:20:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 01:20:39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 01:20:39 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 01:20:39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 747 ms
+""2022-06-30 01:20:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+""2022-06-30 01:20:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+""2022-06-30 01:20:39 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 01:20:39 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 01:20:39 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 01:20:39 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 01:20:39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:20:39 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 01:20:39 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 01:20:40 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 01:20:40 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 01:20:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-06-30 01:20:40 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Started SharePriceApplication in 2.216 seconds (JVM running for 75.056)
+""2022-06-30 01:20:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-06-30 01:20:41 [Thread-14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:20:41 [Thread-14] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 01:20:41 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+""2022-06-30 01:20:41 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+""2022-06-30 01:20:42 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Starting SharePriceApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 22440 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice)
+""2022-06-30 01:20:42 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 01:20:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 01:20:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+""2022-06-30 01:20:43 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a595ef0d-9841-3f88-8014-eb90c8887fbf
+""2022-06-30 01:20:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-06-30 01:20:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 01:20:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 01:20:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 01:20:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 956 ms
+""2022-06-30 01:20:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+""2022-06-30 01:20:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+""2022-06-30 01:20:43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 01:20:43 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 01:20:43 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 01:20:43 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 01:20:43 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:20:43 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 01:20:43 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 01:20:44 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 01:20:44 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 01:20:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-06-30 01:20:44 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Started SharePriceApplication in 2.612 seconds (JVM running for 79.053)
+""2022-06-30 01:20:44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-06-30 01:20:46 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 01:20:46 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 01:20:46 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+""2022-06-30 01:20:52 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:20:52 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:20:52 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:20:52 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:20:57 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:20:57 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:13 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:13 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:13 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:13 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:16 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:18 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:57 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:57 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:55:59 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:00 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:05 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:05 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:05 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:05 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:44 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:44 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:44 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:56:44 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:03 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:03 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:03 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:03 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:10 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:10 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:11 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:11 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:14 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:57:14 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:58:02 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:58:02 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:58:58 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 01:58:58 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:08 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:08 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:19 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:19 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:36 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:36 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:58 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:00:58 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:29 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:30 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:30 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:30 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:30 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:32 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:32 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:32 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:32 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:33 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:33 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:33 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:33 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:33 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:33 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:35 [http-nio-8082-exec-7] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:40 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:40 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:40 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:42 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:49 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:01:49 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:03:22 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:03:22 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:03:35 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:03:35 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:03:41 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:13:04 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:13:05 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:13:14 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:17:02 [Thread-20] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:17:10 [Thread-20] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:17:10 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+""2022-06-30 02:17:11 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+""2022-06-30 02:19:04 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Starting SharePriceApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 22440 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice)
+""2022-06-30 02:19:04 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:19:04 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.cts.shareprice.SharePriceApplication.main(SharePriceApplication.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.4.jar:2.6.4]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1515) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1750) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.16.jar:5.3.16]
+	... 19 common frames omitted
+"2022-06-30 02:19:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:19:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+""2022-06-30 02:19:05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a595ef0d-9841-3f88-8014-eb90c8887fbf
+""2022-06-30 02:19:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-06-30 02:19:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 945 ms
+""2022-06-30 02:19:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+""2022-06-30 02:19:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+""2022-06-30 02:19:05 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:19:05 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:19:05 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:19:05 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:19:05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:19:05 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:19:05 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 02:19:05 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:19:05 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:19:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-06-30 02:19:06 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Started SharePriceApplication in 2.564 seconds (JVM running for 3580.818)
+""2022-06-30 02:19:06 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-06-30 02:21:17 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:21:17 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+""2022-06-30 02:24:03 [http-nio-8082-exec-8] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:24:03 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:24:03 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:24:03 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:24:09 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:24:09 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:27:17 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:27:17 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:27:21 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:27:21 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:27:21 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:27:21 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:27:57 [RMI TCP Connection(91)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-06-30 02:27:57 [RMI TCP Connection(91)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:27:57 [RMI TCP Connection(91)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:27:57 [RMI TCP Connection(91)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+""2022-06-30 02:27:57 [RMI TCP Connection(91)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+""2022-06-30 02:28:38 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Starting SharePriceApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 18848 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\SharePrice\DailySharePrice)
+""2022-06-30 02:28:38 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:28:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 02:28:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 02:28:41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:28:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 511 ms. Found 1 JPA repository interfaces.
+""2022-06-30 02:28:43 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a595ef0d-9841-3f88-8014-eb90c8887fbf
+""2022-06-30 02:28:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-06-30 02:28:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:28:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:28:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 02:28:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6660 ms
+""2022-06-30 02:28:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 02:28:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 02:28:45 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:28:46 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:28:46 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 02:28:46 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 02:28:46 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:28:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:28:48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:28:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:28:48 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 02:28:50 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:28:50 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:28:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-06-30 02:28:51 [restartedMain] INFO  c.c.shareprice.SharePriceApplication - Started SharePriceApplication in 16.559 seconds (JVM running for 20.394)
+""2022-06-30 02:29:14 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 02:29:14 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:29:14 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2022-06-30 02:29:19 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:19 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:19 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:19 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:25 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:25 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:42 [http-nio-8082-exec-3] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:42 [http-nio-8082-exec-4] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:42 [http-nio-8082-exec-5] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:29:42 [http-nio-8082-exec-6] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:30:00 [http-nio-8082-exec-10] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:30:00 [http-nio-8082-exec-9] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:30:00 [http-nio-8082-exec-1] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+""2022-06-30 02:30:00 [http-nio-8082-exec-2] INFO  c.c.s.controller.StockController - fetching Stock Details using stockName
+"

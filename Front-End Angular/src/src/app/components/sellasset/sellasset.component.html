@@ -1,0 +1,105 @@
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-4">
+            <img src="../assets/images/sellAsset.png">
+        </div>
+        <div class="col-8">
+            <p class="text-center"><b>Select the assets which you want to sell</b></p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Asset Name</th>
+                        <th scope="col">Unit Available</th>
+                        <th scope="col">Units to be sold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="brand">SBI</td>
+                        <td><input type="number" class="w-25"></td>
+                        <td><input type="number" class="w-25"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="sell">
+                <button routerLink="/viewAssets" class="prim">Newtworth</button>
+            </div>
+
+        </div>
+    </div>
+</div> -->
+<!-- <div class="container text-centr">
+
+    <div class="row">
+        <div class="col-md-6">
+
+            <h3>Networth</h3>
+            <button (click)="getAsset()" mat-raised-button>View Assets</button>
+
+        </div>
+
+        <div class="col-md-6">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>checkbox</th>
+                        <th scope="col">Asset</th>
+                        <th scope="col">Remaining</th>
+                        <th scope="col">Sold Units</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <app-vieweachstock *ngFor="let stock of portfolioResponse.stockDetailList" [stock]="stock" (removeEvent)="remove($event)" (addEvent)="add($event)"></app-vieweachstock>
+            <app-vieweachmutual *ngFor="let mutualFund of portfolioResponse.mutualFundList" [mutual]="mutualFund" (removeEvent)="remove($event)" (addEvent)="add($event)"></app-vieweachmutual>
+        </div>
+    </div>
+</div>
+<table>
+    <tr *ngFor="let asset of saleAsset">
+        <td>{{asset.assetName}}</td>
+        <td>{{asset.soldUnits}}</td>
+    </tr>
+</table>
+
+<button (click)="sellAsset()" mat-raised-button>Get Details</button>
+<p>{{assetSaleResponse}}</p> -->
+
+<div class="container">
+    <div class="row text-center">
+        <p class="text-center">Sell The Asset......</p>
+        <hr>
+        <div class="col-md-6">
+            <table class="table table-striped">
+
+                <tr>
+                    <th>checkbox</th>
+                    <th scope="col">Asset</th>
+                    <th scope="col">Available Units</th>
+                    <th scope="col">Units to be Sold</th>
+                </tr>
+
+            </table>
+            <app-vieweachstock *ngFor="let stock of portfolioResponse.stockDetailList" [stock]="stock" (removeEvent)="remove($event)" (addEvent)="add($event)"></app-vieweachstock>
+            <app-vieweachmutual *ngFor="let mutualFund of portfolioResponse.mutualFundList" [mutual]="mutualFund" (removeEvent)="remove($event)" (addEvent)="add($event)"></app-vieweachmutual>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-striped" style="margin-left: 10%;">
+                <tr>
+                    <th scope="col">Asset Name</th>
+                    <th scope="col">Units to be Sold</th>
+                </tr>
+                <tr *ngFor="let asset of saleAsset">
+                    <td>{{asset.assetName}}</td>
+                    <td>{{asset.soldUnits}}</td>
+                </tr>
+            </table>
+            <button (click)="sellAsset()" mat-raised-button>Get Details</button>
+            <p>{{message}}</p>
+            <p>{{assetSaleResponse}}</p>
+        </div>
+    </div>
+</div>
+<button (click)="getAsset()" mat-raised-button>View Assets</button>

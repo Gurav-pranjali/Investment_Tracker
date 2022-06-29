@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+    <span><a mat-icon-button routerLink="/">Portfolio Management</a></span>
+    <span class="example-spacer"></span>
+    <a *ngIf="!loggedIn" mat-icon-button routerLink="/login">Login</a>
+    <!-- <a *ngIf="loggedIn" mat-icon-button routerLink="/viewasset">View Asset</a>
+    <a *ngIf="loggedIn" mat-icon-button routerLink="/sellasset">sell Asset</a> -->
+    <a *ngIf="loggedIn" (click)="logoutUser()" mat-icon-button>Logout</a>
+</mat-toolbar>

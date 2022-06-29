@@ -1,0 +1,11 @@
+<table>
+    <tr>
+        <td style><input type="checkbox" (click)="doOperation()"></td>
+        <td>{{mutual.mutualFundName}}</td>
+        <td>{{mutual.mutualFundUnits}}</td>
+        <td>{{mutual.currentPrice}}</td>
+
+        <td><input type="number" min="1" max="{{mutual.mutualFundUnits}}" [(ngModel)]="sales.soldUnits"
+                style="width: 100%"></td>
+    </tr>
+</table>

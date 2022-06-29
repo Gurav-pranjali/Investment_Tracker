@@ -1,0 +1,10 @@
+th {
+    border: 1px solid;
+    width: 150px;
+    background-color: #c8f79c;
+}
+
+td {
+    border: 1px solid;
+    width: 150px;
+}

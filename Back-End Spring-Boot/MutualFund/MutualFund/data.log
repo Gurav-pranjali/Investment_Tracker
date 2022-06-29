@@ -1,0 +1,441 @@
+"2022-06-30 01:17:41 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Starting MutualFundApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 18112 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund)
+""2022-06-30 01:17:41 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 01:17:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 01:17:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 01:17:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 01:17:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3566 ms. Found 1 JPA repository interfaces.
+""2022-06-30 01:17:48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6bad0fb2-c2fe-3abd-909f-ca138b9f8957
+""2022-06-30 01:17:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-06-30 01:17:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 01:17:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 01:17:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 01:17:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10312 ms
+""2022-06-30 01:17:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 01:17:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 01:17:53 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 01:17:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 01:17:55 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 01:17:56 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 01:17:57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 01:17:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 01:17:58 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:17:59 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 01:17:59 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 01:18:02 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 01:18:02 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 01:18:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-06-30 01:18:03 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Started MutualFundApplication in 24.426 seconds (JVM running for 28.738)
+""2022-06-30 01:20:46 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 01:20:46 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 01:20:46 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+""2022-06-30 01:20:52 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:20:52 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:20:52 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:20:52 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:20:57 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:20:57 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:55:13 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:55:13 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:55:16 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:55:18 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:55:18 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:55:18 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:55:58 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:01 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:01 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:02 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:05 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:05 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:06 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:06 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:44 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:44 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:44 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:56:44 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:03 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:03 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:03 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:04 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:11 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:11 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:12 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:12 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:14 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:57:14 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:58:02 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:58:02 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:58:59 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 01:58:59 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:00:09 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:00:09 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:00:19 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:00:20 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:00:36 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:00:36 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:01 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:01 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:29 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:29 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:29 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:29 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:30 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:30 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:30 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:31 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:31 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:31 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:31 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:31 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:32 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:33 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:35 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:35 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:35 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:35 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:42 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:42 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:42 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:42 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:49 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:49 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:49 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:01:49 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:22 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:22 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:22 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:22 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:37 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:37 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:37 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:38 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:41 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:03:41 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:13:05 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:13:05 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:13:05 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:13:06 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:13:14 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:13:14 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:16:30 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:16:54 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:16:54 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-06-30 02:16:57 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-06-30 02:18:35 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Starting MutualFundApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 18112 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund)
+""2022-06-30 02:18:35 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:18:36 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.cts.mutualfund.MutualFundApplication.main(MutualFundApplication.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.4.jar:2.6.4]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1515) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1750) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.16.jar:5.3.16]
+	... 19 common frames omitted
+"2022-06-30 02:18:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:18:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+""2022-06-30 02:18:37 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6bad0fb2-c2fe-3abd-909f-ca138b9f8957
+""2022-06-30 02:18:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-06-30 02:18:38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2136 ms
+""2022-06-30 02:18:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+""2022-06-30 02:18:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+""2022-06-30 02:18:38 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:18:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:18:38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:18:38 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Starting MutualFundApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 18112 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund)
+""2022-06-30 02:18:38 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:18:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:18:38 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 02:18:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:18:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+""2022-06-30 02:18:39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6bad0fb2-c2fe-3abd-909f-ca138b9f8957
+""2022-06-30 02:18:39 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:18:39 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:18:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-06-30 02:18:40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:18:40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:18:40 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Started MutualFundApplication in 5.502 seconds (JVM running for 3665.914)
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-06-30 02:18:40 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1963 ms
+""2022-06-30 02:18:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+""2022-06-30 02:18:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:18:41 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:18:41 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:18:41 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:18:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:18:41 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+""2022-06-30 02:18:41 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mutualFundController': Unsatisfied dependency expressed through field 'authorizationClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:18:42 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:18:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+""2022-06-30 02:18:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+""2022-06-30 02:18:42 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-06-30 02:18:42 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2022-06-30 02:18:42 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mutualFundController': Unsatisfied dependency expressed through field 'authorizationClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.cts.mutualfund.MutualFundApplication.main(MutualFundApplication.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.4.jar:2.6.4]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:264) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:221) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:427) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:938) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.cloud.context.named.NamedContextFactory.createContext(NamedContextFactory.java:137) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.context.named.NamedContextFactory.getContext(NamedContextFactory.java:105) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstance(NamedContextFactory.java:146) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.get(FeignClientFactoryBean.java:344) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:123) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 25 common frames omitted
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 59 common frames omitted
+"2022-06-30 02:21:17 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:21:17 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+""2022-06-30 02:21:17 [http-nio-8083-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:17 [http-nio-8083-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ [42102-200]
+""2022-06-30 02:21:32 [http-nio-8083-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:32 [http-nio-8083-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ [42102-200]
+""2022-06-30 02:23:52 [http-nio-8083-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:23:52 [http-nio-8083-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ [42102-200]
+""2022-06-30 02:23:56 [http-nio-8083-exec-5] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:23:56 [http-nio-8083-exec-5] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ [42102-200]
+""2022-06-30 02:24:03 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:24:03 [http-nio-8083-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:24:03 [http-nio-8083-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ where mutualfund0_.mutual_fund_name=? [42102-200]
+""2022-06-30 02:24:03 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:24:03 [http-nio-8083-exec-7] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:24:03 [http-nio-8083-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ where mutualfund0_.mutual_fund_name=? [42102-200]
+""2022-06-30 02:24:03 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:24:03 [http-nio-8083-exec-8] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:24:03 [http-nio-8083-exec-8] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ where mutualfund0_.mutual_fund_name=? [42102-200]
+""2022-06-30 02:24:09 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:24:09 [http-nio-8083-exec-9] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:24:09 [http-nio-8083-exec-9] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ where mutualfund0_.mutual_fund_name=? [42102-200]
+""2022-06-30 02:24:09 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:24:09 [http-nio-8083-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:24:09 [http-nio-8083-exec-10] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "MUTUALFUND" not found; SQL statement:
+select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_name as mutual_f2_0_, mutualfund0_.mutual_fund_value as mutual_f3_0_ from mutualfund mutualfund0_ where mutualfund0_.mutual_fund_name=? [42102-200]
+""2022-06-30 02:26:40 [RMI TCP Connection(86)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-06-30 02:26:40 [RMI TCP Connection(86)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:26:40 [RMI TCP Connection(86)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:26:40 [RMI TCP Connection(86)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+""2022-06-30 02:26:40 [RMI TCP Connection(86)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+""2022-06-30 02:27:01 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Starting MutualFundApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 22128 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund)
+""2022-06-30 02:27:01 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:27:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 02:27:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 02:27:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:27:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 202 ms. Found 1 JPA repository interfaces.
+""2022-06-30 02:27:04 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6bad0fb2-c2fe-3abd-909f-ca138b9f8957
+""2022-06-30 02:27:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-06-30 02:27:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:27:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:27:05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 02:27:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3086 ms
+""2022-06-30 02:27:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 02:27:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 02:27:05 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:27:05 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:27:05 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 02:27:06 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 02:27:06 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:27:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:27:06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:27:07 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:27:07 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 02:27:08 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:27:08 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:27:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-06-30 02:27:09 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Started MutualFundApplication in 8.374 seconds (JVM running for 10.025)
+""2022-06-30 02:27:17 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 02:27:17 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:27:17 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2022-06-30 02:27:18 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:27:18 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:27:21 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:27:21 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:27:23 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:27:23 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:27:53 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-06-30 02:27:54 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:27:54 [RMI TCP Connection(7)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:27:54 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-06-30 02:27:54 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-06-30 02:28:34 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Starting MutualFundApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 18568 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund)
+""2022-06-30 02:28:34 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:28:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 02:28:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 02:28:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:28:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 860 ms. Found 1 JPA repository interfaces.
+""2022-06-30 02:28:39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6bad0fb2-c2fe-3abd-909f-ca138b9f8957
+""2022-06-30 02:28:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-06-30 02:28:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:28:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:28:41 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 02:28:41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7076 ms
+""2022-06-30 02:28:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 02:28:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 02:28:42 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:28:43 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:28:43 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 02:28:43 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 02:28:44 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:28:45 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:28:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:28:46 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:28:46 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 02:28:48 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:28:48 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:28:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-06-30 02:28:49 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Started MutualFundApplication in 18.034 seconds (JVM running for 21.549)
+""2022-06-30 02:29:14 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 02:29:14 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:29:14 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+""2022-06-30 02:29:19 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:19 [http-nio-8083-exec-4] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:19 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:19 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:25 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:25 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:42 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:42 [http-nio-8083-exec-5] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:42 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:29:42 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:30:00 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:30:00 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:30:00 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 02:30:00 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+"

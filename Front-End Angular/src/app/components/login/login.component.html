@@ -1,0 +1,45 @@
+<div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+    <div class="card card0 border-0">
+        <div class="row d-flex">
+            <div class="col-lg-6">
+                <div class="card1 pb-5">
+                    <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
+                        <img style="width: 250px;" src="MPP/../../assets/images/8432.svg" class="small-img mt-5" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card2 card border-0 px-4 py-5">
+                    <form (ngSubmit)="onSubmit()">
+
+                        <mat-form-field appearance="outline" class="full-width">
+                            <mat-label>Username</mat-label>
+                            <input matInput placeholder="Enter username here" [(ngModel)]="credentials.username"
+                                class="input" name="username" required>
+                        </mat-form-field><br>
+
+                        <mat-form-field appearance="outline" class="full-width">
+                            <mat-label>Password</mat-label>
+                            <input matInput placeholder="Enter password here" [(ngModel)]="credentials.password"
+                                type="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{5,}"
+                                required>
+                        </mat-form-field><br>
+
+                         <p>Username : Pranjali <br>
+                            Password: 1234</p>
+                        <span class="container text-center">
+                            <button input type="submit" mat-raised-button
+                                color="primary">Login</button>&nbsp;&nbsp;&nbsp;
+                            <button input type="reset" mat-raised-button color="accent">Reset</button>
+                        </span>
+
+
+
+                    </form>
+                    <h2 class="text-center text-danger"> {{msg}} </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

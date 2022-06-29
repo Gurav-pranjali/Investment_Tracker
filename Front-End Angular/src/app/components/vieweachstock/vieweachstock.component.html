@@ -1,0 +1,13 @@
+<table table-bordered>
+    <tbody>
+        <tr class="p-2">
+            <td><input type="checkbox" (click)="doOperation()" style="width:10px;"></td>
+            <td>{{stock.stockName}}</td>
+            <td>{{stock.stockCount}}</td>
+            <td>{{stock.currentPrice}}</td>
+            <td><input type="number" style="width:100%;" min="1" max="{{stock.stockCount}}"
+                    [(ngModel)]="sales.soldUnits"></td>
+        </tr>
+    </tbody>
+
+</table>

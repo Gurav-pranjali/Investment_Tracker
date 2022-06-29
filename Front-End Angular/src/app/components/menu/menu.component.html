@@ -1,0 +1,31 @@
+<p>
+    <mat-toolbar color="primary">
+
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-raised-button *ngIf="!loggedIn" routerLink="/">Investment Tracker</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-raised-button *ngIf="loggedIn" routerLink="/dashboard">Investment Tracker</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <button *ngIf="loggedIn" mat-button routerLink="/sellasset">Sell Asset</button>
+
+        <button *ngIf="loggedIn" mat-button routerLink="/viewasset">View Asset</button>
+
+        <button *ngIf="loggedIn" mat-button routerLink="/currentprice">Current Price</button>
+
+
+
+
+
+        <span class="example-spacer"></span>
+
+        <button *ngIf="!loggedIn" mat-raised-button routerLink="/login">Login</button>
+
+
+        <button *ngIf="loggedIn" mat-icon-button (click)="logoutUser()">Logout</button>
+
+
+    </mat-toolbar>
+</p>

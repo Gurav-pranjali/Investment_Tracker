@@ -1,0 +1,44 @@
+.container {
+    background-color: #ffffff;
+    height: 80%;
+}
+
+.table table-hover,th,td
+{
+    border: 1px solid;
+}
+
+/* th {
+    border: 1px solid;
+    width: 150px;
+} */
+
+.middle {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.status {
+    padding-top: 5%;
+}
+
+.accent {
+    transition-duration: 0.4s;
+    border: solid;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.accent:hover {
+    background-color: #a4fbf5;
+    color: black;
+}
+
+h3.h {
+    border: 2px solid ;
+    border-radius: 8px;
+    padding: 5px;
+}

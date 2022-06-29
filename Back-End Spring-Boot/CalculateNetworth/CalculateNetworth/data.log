@@ -1,0 +1,486 @@
+"2022-06-30 01:17:39 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 21908 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth)
+""2022-06-30 01:17:39 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 01:17:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 01:17:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 01:17:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 01:17:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4728 ms. Found 3 JPA repository interfaces.
+""2022-06-30 01:17:48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b7cb8075-0b0f-36d7-8a63-39b8fd232c24
+""2022-06-30 01:17:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-06-30 01:17:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 01:17:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 01:17:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 01:17:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12470 ms
+""2022-06-30 01:17:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 01:17:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 01:17:53 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 01:17:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 01:17:55 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 01:17:56 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 01:17:57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 01:17:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 01:17:58 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 01:17:59 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 01:17:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-06-30 01:18:02 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 01:18:02 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 01:18:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+""2022-06-30 01:18:03 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Started CalculateNetworthApplication in 27.51 seconds (JVM running for 30.7)
+""2022-06-30 01:20:51 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 01:20:51 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 01:20:51 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2022-06-30 01:20:52 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:20:52 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:20:57 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:55:08 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:55:08 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:55:09 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:55:09 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:55:55 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:55:56 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:56:05 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:56:05 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:56:44 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:56:44 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:57:03 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:57:03 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:57:10 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 01:57:10 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:57:13 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:58:01 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 01:58:58 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:00:08 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:00:19 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:00:35 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:00:58 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:20 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:20 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:22 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:22 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:22 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:22 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:30 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:30 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:30 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:31 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:31 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:31 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:31 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:32 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:32 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:32 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:32 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:32 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:32 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:32 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:32 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:32 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:33 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:33 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:35 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:35 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:40 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:40 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:01:48 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:01:49 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:01:49 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:03:22 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:03:22 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:03:34 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:03:35 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:03:41 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:13:03 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:13:03 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:13:14 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:15:58 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:16:27 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:16:28 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-06-30 02:16:30 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-06-30 02:18:36 [restartedMain] DEBUG o.s.b.d.LoggingFailureAnalysisReporter - Application failed to start due to an exception
+"org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+	at org.springframework.boot.web.server.PortInUseException.lambda$throwIfPortBindingException$0(PortInUseException.java:70) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.web.server.PortInUseException.lambda$ifPortBindingException$1(PortInUseException.java:85) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.web.server.PortInUseException.ifCausedBy(PortInUseException.java:103) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.web.server.PortInUseException.ifPortBindingException(PortInUseException.java:82) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.web.server.PortInUseException.throwIfPortBindingException(PortInUseException.java:69) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:228) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.cts.calculatenetworth.CalculateNetworthApplication.main(CalculateNetworthApplication.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.4.jar:2.6.4]
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:238) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-2.6.4.jar:2.6.4]
+	... 21 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1075) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:234) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	... 23 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:459) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:448) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:273) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1213) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1299) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:614) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1072) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	... 25 common frames omitted
+"2022-06-30 02:18:36 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2022-06-30 02:18:36 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 21908 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth)
+""2022-06-30 02:18:36 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:18:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:18:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+""2022-06-30 02:18:37 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b7cb8075-0b0f-36d7-8a63-39b8fd232c24
+""2022-06-30 02:18:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-06-30 02:18:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:18:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:18:38 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 21908 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth)
+""2022-06-30 02:18:38 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:18:40 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b7cb8075-0b0f-36d7-8a63-39b8fd232c24
+""2022-06-30 02:18:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-06-30 02:18:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:18:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:18:41 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2320 ms
+""2022-06-30 02:18:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+""2022-06-30 02:18:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:18:41 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:18:41 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:18:41 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:18:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:18:41 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+""2022-06-30 02:18:41 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'networthController': Unsatisfied dependency expressed through field 'investmentDetailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'investmentDetailService': Unsatisfied dependency expressed through field 'sharePriceClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:18:41 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:18:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+""2022-06-30 02:18:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+""2022-06-30 02:18:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2022-06-30 02:18:41 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'networthController': Unsatisfied dependency expressed through field 'investmentDetailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'investmentDetailService': Unsatisfied dependency expressed through field 'sharePriceClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.cts.calculatenetworth.CalculateNetworthApplication.main(CalculateNetworthApplication.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.4.jar:2.6.4]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'investmentDetailService': Unsatisfied dependency expressed through field 'sharePriceClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:264) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:221) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:427) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:938) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.cloud.context.named.NamedContextFactory.createContext(NamedContextFactory.java:137) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.context.named.NamedContextFactory.getContext(NamedContextFactory.java:105) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.context.named.NamedContextFactory.getInstance(NamedContextFactory.java:146) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.get(FeignClientFactoryBean.java:344) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:123) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:413) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235) ~[spring-cloud-openfeign-core-3.1.1.jar:3.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 39 common frames omitted
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 73 common frames omitted
+"2022-06-30 02:18:41 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Started CalculateNetworthApplication in 6.12 seconds (JVM running for 3669.241)
+""2022-06-30 02:18:41 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-06-30 02:20:45 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:20:45 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+""2022-06-30 02:20:45 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:20:45 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:20:46 [http-nio-8084-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:20:46 [http-nio-8084-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:20:46 [http-nio-8084-exec-10] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:20:46 [http-nio-8084-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:01 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:21:01 [http-nio-8084-exec-9] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:01 [http-nio-8084-exec-9] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:01 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:21:01 [http-nio-8084-exec-8] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:01 [http-nio-8084-exec-8] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:08 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:21:08 [http-nio-8084-exec-7] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:08 [http-nio-8084-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:40 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:21:40 [http-nio-8084-exec-5] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:40 [http-nio-8084-exec-5] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:40 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:21:40 [http-nio-8084-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:40 [http-nio-8084-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:45 [http-nio-8084-exec-3] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:21:45 [http-nio-8084-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:45 [http-nio-8084-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:45 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:21:45 [http-nio-8084-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:45 [http-nio-8084-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:21:49 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:21:49 [http-nio-8084-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 42102, SQLState: 42S02
+""2022-06-30 02:21:49 [http-nio-8084-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "investment" not found; SQL statement:
+select investment0_.investment_id as investme1_0_ from investment investment0_ where investment0_.investment_id=? [42102-200]
+""2022-06-30 02:22:33 [RMI TCP Connection(81)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-06-30 02:22:33 [RMI TCP Connection(81)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:22:34 [RMI TCP Connection(81)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:22:34 [RMI TCP Connection(81)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+""2022-06-30 02:22:34 [RMI TCP Connection(81)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+""2022-06-30 02:23:07 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 23280 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth)
+""2022-06-30 02:23:07 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:23:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 02:23:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 02:23:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:23:12 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1267 ms. Found 3 JPA repository interfaces.
+""2022-06-30 02:23:13 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b7cb8075-0b0f-36d7-8a63-39b8fd232c24
+""2022-06-30 02:23:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-06-30 02:23:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:23:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:23:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 02:23:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11354 ms
+""2022-06-30 02:23:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 02:23:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 02:23:20 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:23:20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:23:21 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 02:23:22 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 02:23:23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:23:24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:23:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:23:25 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:23:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-06-30 02:23:27 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:23:27 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:23:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+""2022-06-30 02:23:28 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Started CalculateNetworthApplication in 24.132 seconds (JVM running for 29.534)
+""2022-06-30 02:24:02 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 02:24:02 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:24:02 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+""2022-06-30 02:24:02 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:24:02 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:24:03 [http-nio-8084-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$InternalServerError: [500] during [GET] to [http://localhost:8083/MutualFund/SRD] [MutualFundClient#getMutualFundDetails(String,String)]: [{"timestamp":"2022-06-29T20:54:03.606+00:00","status":500,"error":"Internal Server Error","trace":"org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [se... (13775 bytes)]] with root cause
+"feign.FeignException$InternalServerError: [500] during [GET] to [http://localhost:8083/MutualFund/SRD] [MutualFundClient#getMutualFundDetails(String,String)]: [{"timestamp":"2022-06-29T20:54:03.606+00:00","status":500,"error":"Internal Server Error","trace":"org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [se... (13775 bytes)]
+	at feign.FeignException.serverErrorStatus(FeignException.java:250)
+	at feign.FeignException.errorStatus(FeignException.java:197)
+	at feign.FeignException.errorStatus(FeignException.java:185)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at com.sun.proxy.$Proxy134.getMutualFundDetails(Unknown Source)
+	at com.cts.calculatenetworth.service.InvestmentDetailService.getcalculateNetworth(InvestmentDetailService.java:51)
+	at com.cts.calculatenetworth.controller.NetworthController.calculateNetworth(NetworthController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+"2022-06-30 02:24:08 [http-nio-8084-exec-4] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:27:17 [http-nio-8084-exec-6] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:27:21 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:27:21 [http-nio-8084-exec-9] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:27:50 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-06-30 02:27:50 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:27:52 [RMI TCP Connection(13)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 02:27:52 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-06-30 02:27:52 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-06-30 02:28:28 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Starting CalculateNetworthApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 28724 (C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Cognizant_project\Investment_Tracker\Back-End Spring-Boot\CalculateNetworth\CalculateNetworth)
+""2022-06-30 02:28:28 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 02:28:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 02:28:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 02:28:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 02:28:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 460 ms. Found 3 JPA repository interfaces.
+""2022-06-30 02:28:33 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b7cb8075-0b0f-36d7-8a63-39b8fd232c24
+""2022-06-30 02:28:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2022-06-30 02:28:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 02:28:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 02:28:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 02:28:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6913 ms
+""2022-06-30 02:28:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 02:28:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 02:28:36 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 02:28:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 02:28:37 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 02:28:37 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 02:28:38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 02:28:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 02:28:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 02:28:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 02:28:42 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-06-30 02:28:45 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 02:28:45 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 02:28:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+""2022-06-30 02:28:47 [restartedMain] INFO  c.c.c.CalculateNetworthApplication - Started CalculateNetworthApplication in 19.942 seconds (JVM running for 22.36)
+""2022-06-30 02:29:19 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 02:29:19 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 02:29:19 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+""2022-06-30 02:29:19 [http-nio-8084-exec-2] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:29:19 [http-nio-8084-exec-1] INFO  c.c.c.controller.NetworthController - calculating networth....
+""2022-06-30 02:29:25 [http-nio-8084-exec-5] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:29:42 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:29:42 [http-nio-8084-exec-7] INFO  c.c.c.controller.NetworthController - successfully sell....
+""2022-06-30 02:29:42 [http-nio-8084-exec-8] INFO  c.c.c.controller.NetworthController - finding user by id...
+""2022-06-30 02:30:00 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - selling started...
+""2022-06-30 02:30:00 [http-nio-8084-exec-10] INFO  c.c.c.controller.NetworthController - successfully sell....
+"
