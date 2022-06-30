@@ -438,4 +438,76 @@ select mutualfund0_.mutual_fund_id as mutual_f1_0_, mutualfund0_.mutual_fund_nam
 ""2022-06-30 02:30:00 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
 ""2022-06-30 02:30:00 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
 ""2022-06-30 02:30:00 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:33:21 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Starting MutualFundApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 4280 (C:\Users\Pranjali Gurav\Desktop\Investment-tracker\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Investment-tracker\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund)
+""2022-06-30 05:33:21 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 05:33:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-06-30 05:33:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-06-30 05:33:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 05:33:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 763 ms. Found 1 JPA repository interfaces.
+""2022-06-30 05:33:31 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6bad0fb2-c2fe-3abd-909f-ca138b9f8957
+""2022-06-30 05:33:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-06-30 05:33:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 05:33:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 05:33:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 05:33:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 13833 ms
+""2022-06-30 05:33:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-06-30 05:33:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-06-30 05:33:37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 05:33:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 05:33:43 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-06-30 05:33:44 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-06-30 05:33:45 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 05:33:47 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 05:33:47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 05:33:49 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 05:33:50 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-06-30 05:33:54 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 05:33:54 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 05:33:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-06-30 05:33:57 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Started MutualFundApplication in 43.82 seconds (JVM running for 55.326)
+""2022-06-30 05:34:16 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 05:34:16 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-06-30 05:34:16 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-06-30 05:34:16 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-06-30 05:34:18 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Starting MutualFundApplication using Java 11.0.13 on DESKTOP-RS9QED2 with PID 4280 (C:\Users\Pranjali Gurav\Desktop\Investment-tracker\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund\target\classes started by Pranjali Gurav in C:\Users\Pranjali Gurav\Desktop\Investment-tracker\Investment_Tracker\Back-End Spring-Boot\MutualFund\MutualFund)
+""2022-06-30 05:34:18 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-06-30 05:34:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-06-30 05:34:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+""2022-06-30 05:34:21 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6bad0fb2-c2fe-3abd-909f-ca138b9f8957
+""2022-06-30 05:34:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-06-30 05:34:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-06-30 05:34:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-06-30 05:34:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-06-30 05:34:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2564 ms
+""2022-06-30 05:34:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-06-30 05:34:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-06-30 05:34:21 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-06-30 05:34:21 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-06-30 05:34:21 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-06-30 05:34:21 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-06-30 05:34:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-06-30 05:34:21 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-06-30 05:34:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-06-30 05:34:22 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-06-30 05:34:22 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-06-30 05:34:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-06-30 05:34:23 [restartedMain] INFO  c.c.mutualfund.MutualFundApplication - Started MutualFundApplication in 6.258 seconds (JVM running for 81.589)
+""2022-06-30 05:34:23 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-06-30 05:43:53 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-06-30 05:43:53 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-06-30 05:43:53 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+""2022-06-30 05:44:18 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:44:18 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:44:18 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:44:18 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:44:38 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:44:38 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:24 [http-nio-8083-exec-9] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:24 [http-nio-8083-exec-8] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:24 [http-nio-8083-exec-10] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:24 [http-nio-8083-exec-1] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:26 [http-nio-8083-exec-2] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:26 [http-nio-8083-exec-3] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:39 [http-nio-8083-exec-7] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-06-30 05:45:39 [http-nio-8083-exec-6] INFO  c.c.m.c.MutualFundController - Fetching MutualFund using MutualName
 "
